@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP3 API REST</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <h1>TP3 API REST con Servidor Express</h1>
+    <hr>
+
+    <h2>Ingrese un Libro</h2>
+
+    <form action="/api/libros" method="post" class="formulario-libro">
+        <input type="text" name="titulo" placeholder="Título" class="campo">
+        <input type="text" name="autor" placeholder="Autor" class="campo">
+        <input type="number" name="anio" placeholder="Año de publicación" class="campo">
+        <button>Enviar</button>
+    </form>
+
+</body>
+
+</html>
